@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CARS | Rent &amp; Sell Cars in Salem</title>
+  <meta name="description" content="CARS — 1-day car rent and sell in Salem, Tamil Nadu. Transparent pricing, verified vehicles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="CARS home">CARS</a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#rent">Rent</a>
+        <a href="#sell">Sell</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Salem, Tamil Nadu</p>
+          <h1 id="hero-heading" class="hero-title">CARS<span class="hero-dot">.</span></h1>
+          <p class="hero-tagline">Drive Your Way</p>
+          <p class="hero-desc">
+            Rent any car for <strong>1 day</strong> or buy at honest sell rates. Pick up at our Salem showroom — transparent pricing, no surprises.
+          </p>
+          <div class="hero-cta">
+            <a href="#rent" class="btn btn-primary">View Rent</a>
+            <a href="#sell" class="btn btn-outline">View Sell</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80"
+            alt="Premium car on road"
+            class="hero-image"
+            width="800"
+            height="500"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="section featured-section" aria-labelledby="featured-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="featured-heading" class="section-title">Featured <span class="accent">Fleet</span></h2>
+          <p class="section-desc">1-day rent and sell rates at a glance</p>
+        </header>
+        <div id="featuredGrid" class="cards-grid cards-grid--featured"></div>
+      </div>
+    </section>
+
+    <section id="rent" class="section rent-section" aria-labelledby="rent-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="rent-heading" class="section-title">1-Day <span class="accent">Rent</span></h2>
+          <p class="section-desc">Book for a single day — ideal for trips, events, and test drives around Salem</p>
+        </header>
+        <div id="rentGrid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="sell" class="section sell-section" aria-labelledby="sell-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="sell-heading" class="section-title">Sell <span class="accent">Rates</span></h2>
+          <p class="section-desc">Certified pre-owned vehicles with clear on-road pricing</p>
+        </header>
+        <div id="sellGrid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="why" class="section why-section" aria-labelledby="why-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="why-heading" class="section-title">Why <span class="accent">CARS</span></h2>
+        </header>
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <span class="why-icon" aria-hidden="true">₹</span>
+            <h3>Transparent Pricing</h3>
+            <p>Rent and sell rates shown upfront — no hidden charges at pickup or delivery.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-icon" aria-hidden="true">1</span>
+            <h3>1-Day Rent</h3>
+            <p>Minimum booking is one day. Perfect for weddings, Yercaud weekends, and city runs.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-icon" aria-hidden="true">✓</span>
+            <h3>Verified Cars</h3>
+            <p>Every vehicle is inspected and documented before it goes on rent or sale.</p>
+          </article>
+          <article class="why-card reveal">
+            <span class="why-icon" aria-hidden="true">📍</span>
+            <h3>Salem Pickup</h3>
+            <p>Convenient showroom near New Bus Stand with free parking for customers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-heading" class="section-title">Contact <span class="accent">CARS</span></h2>
+          <address class="contact-address">
+            <strong>CARS Showroom</strong><br />
+            45, Sarada College Road, Near New Bus Stand,<br />
+            Hasthampatti, Salem - 636007,<br />
+            Tamil Nadu, India
+          </address>
+          <ul class="contact-list">
+            <li>Phone: <a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li>Email: <a href="mailto:hello@cars-salem.in">hello@cars-salem.in</a></li>
+            <li>Hours: Mon–Sat 9:00 AM – 8:00 PM</li>
+          </ul>
+          <div class="map-placeholder" role="img" aria-label="Map placeholder for CARS showroom in Salem">
+            <span class="map-pin">Salem, TN</span>
+            <p>Near New Bus Stand · Hasthampatti</p>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <h3 class="form-title">Quick Enquiry</h3>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>
+            <span>Phone</span>
+            <input type="tel" name="phone" required autocomplete="tel" placeholder="+91" />
+          </label>
+          <label>
+            <span>Interest</span>
+            <select name="interest" required>
+              <option value="">Select...</option>
+              <option value="rent">1-Day Rent</option>
+              <option value="sell">Buy / Sell enquiry</option>
+            </select>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="3" placeholder="Car model, dates..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block">Send Enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">CARS</span>
+        <p class="footer-tagline">Drive Your Way · Salem</p>
+      </div>
+      <address class="footer-address">
+        CARS Showroom, 45 Sarada College Road, Hasthampatti,<br />
+        Salem - 636007, Tamil Nadu, India
+      </address>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#rent">Rent</a>
+        <a href="#sell">Sell</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> CARS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
